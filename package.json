@@ -1,18 +1,18 @@
 {
-  "name": "data-structures",
+  "name": "data-structures-pack",
   "private": false,
   "version": "0.1.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/data-structures.umd.cjs",
-  "module": "./dist/data-structures.js",
+  "main": "./dist/data-structures-pack.umd.cjs",
+  "module": "./dist/data-structures-pack.js",
   "types": "./dist/index.d.ts",
   "exports": {
     "types": "./dist/index.d.ts",
-    "import": "./dist/data-structures.js",
-    "require": "./dist/data-structures.umd.cjs"
+    "import": "./dist/data-structures-pack.js",
+    "require": "./dist/data-structures-pack.umd.cjs"
   },
   "scripts": {
     "dev": "vite",
