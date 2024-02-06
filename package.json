@@ -24,7 +24,8 @@
     "lint": "eslint .",
     "release": "yarn build && changeset publish",
     "prepack": "pinst --disable",
-    "postpack": "pinst --enable"
+    "postpack": "pinst --enable",
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
@@ -33,6 +34,7 @@
     "@types/react-dom": "^18.2.18",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
+    "@vitest/coverage-v8": "^1.2.2",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "danger": "^11.3.1",
@@ -62,11 +64,8 @@
     ]
   },
   "keywords": [
-    "sdk",
-    "starter",
-    "pack",
-    "vite",
-    "template",
+    "data structures",
+    "stack",
     "typescript",
     "react"
   ]

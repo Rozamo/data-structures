@@ -1,5 +1,3 @@
-const sample = () => {
-  return "Sample";
-};
+import Stack from "./stack/Stack";
 
-export { sample };
+export { Stack };

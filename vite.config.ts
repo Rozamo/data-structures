@@ -5,13 +5,14 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./lib/main.ts",
-      name: "data-structures",
-      fileName: "Data Structures",
+      name: "Data Structures",
+      fileName: "data-structures",
     },
   },
   plugins: [
     dts({
       include: "lib",
+      exclude: "**/__tests__/**",
       insertTypesEntry: true,
     }),
   ],
