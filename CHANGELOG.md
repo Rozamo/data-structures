@@ -1,4 +1,4 @@
-# data-structures
+# data-structures-pack
 
 ## 0.1.0
 

@@ -6,7 +6,7 @@ export default defineConfig({
     lib: {
       entry: "./lib/main.ts",
       name: "Data Structures",
-      fileName: "data-structures",
+      fileName: "data-structures-pack",
     },
   },
   plugins: [
