@@ -1,5 +1,11 @@
 # data-structures-pack
 
+## 0.2.0
+
+### Minor Changes
+
+- 82aab53: change package name
+
 ## 0.1.0
 
 ### Minor Changes
