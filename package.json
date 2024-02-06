@@ -64,11 +64,8 @@
     ]
   },
   "keywords": [
-    "sdk",
-    "starter",
-    "pack",
-    "vite",
-    "template",
+    "data structures",
+    "stack",
     "typescript",
     "react"
   ]
