@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     name: Danger JS
+    if: (github.event.pull_request.user.login != 'github-actions[bot]')
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -28,6 +29,6 @@ jobs:
         uses: bahmutov/npm-install@v1.8.38
 
       - name: Run DangerJS
-        run: yarn danger ci
+        run: yarn danger ci --failOnErrors --no-publish-check
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
