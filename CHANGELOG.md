@@ -1,5 +1,11 @@
 # data-structures-pack
 
+## 0.2.1
+
+### Patch Changes
+
+- 45d2dab: add usage example
+
 ## 0.2.0
 
 ### Minor Changes
