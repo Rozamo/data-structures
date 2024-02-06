@@ -25,7 +25,8 @@
     "release": "yarn build && changeset publish",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "changeset": "changeset"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
